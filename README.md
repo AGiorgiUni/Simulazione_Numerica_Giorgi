@@ -1,6 +1,6 @@
 # Exercise delivery of Simulazione Numerica by Alessandro Giorgi
 
-This repository is orginzed in folders with an exercise each one and a review of the work with my analysis.
+This repository is orginzed in folders with an exercise each one and a review of the work with my analysis in jupyter notebook.
 
 To compile C++ programs :
 ```C
