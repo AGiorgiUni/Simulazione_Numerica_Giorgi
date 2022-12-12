@@ -1,4 +1,4 @@
-# Exercise delivery of Simulazione Numerica by Alessandro Giorgi
+# Exercises of Simulazione Numerica exam by Alessandro Giorgi
 
 This repository is orginzed in folders with an exercise each one and a review of the work with my analysis in jupyter notebook.
 
