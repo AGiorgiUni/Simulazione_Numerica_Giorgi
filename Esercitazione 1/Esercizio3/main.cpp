@@ -33,7 +33,7 @@ int main(){
        input.close();
     } else cerr << "PROBLEM: Unable to open seed.in" << endl;
     
-    double d=4; //distance of lines
+    double d=7; //distance of lines
     double L=3; //length
     //my idea is to generate number beetween 0 and d and cosine of the angle beetween the stick and the horizontal line
     int N_throw=0,N_in=0;
@@ -51,7 +51,7 @@ int main(){
         N_in=0;
         for(int i=0;i<j*n;i++){
             x=d*rnd.Rannyu();
-            cosine=rnd.Rannyu();
+            cosine=cos(rnd.Rannyu(-M_PI/2,M_PI/2));
             N_throw++;
             
             if(x+L*cosine>=d) N_in++;
